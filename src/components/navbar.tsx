@@ -1,13 +1,11 @@
 import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
 import { FaGithub } from "react-icons/fa";
-import { TiLocationArrow } from "react-icons/ti";
 import { useWindowScroll } from "react-use";
 
 import { LINKS, NAV_ITEMS } from "@/constants";
 import { cn } from "@/lib/utils";
 
-import { Button } from "./button";
 
 export const Navbar = () => {
   const navContainerRef = useRef<HTMLDivElement>(null);
@@ -65,13 +63,7 @@ export const Navbar = () => {
               <img src="/img/logo.png" alt="Logo" className="w-10" />
             </a>
 
-            <Button
-              id="product-button"
-              rightIcon={TiLocationArrow}
-              containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
-            >
-              Products
-            </Button>
+
           </div>
 
           <div className="flex h-full items-center">

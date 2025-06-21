@@ -8,6 +8,7 @@ interface ButtonProps {
   leftIcon?: IconType;
   rightIcon?: IconType;
   containerClass?: string;
+
 }
 
 export const Button = ({

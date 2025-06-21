@@ -2,7 +2,6 @@ import gsap from "gsap";
 import { useRef } from "react";
 
 import { AnimatedTitle } from "./animated-title";
-import { Button } from "./button";
 import { RoundedCorners } from "./rounded-corners";
 
 export const Story = () => {
@@ -85,9 +84,7 @@ export const Story = () => {
               its secrets and shape your fate amidst infinite opportunities.
             </p>
 
-            <Button id="realm-button" containerClass="mt-5">
-              Discover Prologue
-            </Button>
+
           </div>
         </div>
       </div>

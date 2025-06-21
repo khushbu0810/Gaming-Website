@@ -2,9 +2,6 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useEffect, useRef, useState } from "react";
-import { TiLocationArrow } from "react-icons/ti";
-
-import { Button } from "./button";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -153,13 +150,7 @@ export const Hero = () => {
               Unleash the Play Economy
             </p>
 
-            <Button
-              id="watch-trailer"
-              leftIcon={TiLocationArrow}
-              containerClass="bg-yellow-300 flex-center gap-1"
-            >
-              Watch Trailer
-            </Button>
+
           </div>
         </div>
       </div>
