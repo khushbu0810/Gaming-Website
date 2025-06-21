@@ -45,6 +45,7 @@ bun install --legacy-peer-deps
 
 # Start the development server
 npm run dev
+```
 
 ## 🙋‍♀️ About the Author
 
